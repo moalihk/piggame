@@ -10,4 +10,5 @@ class Dice:
 
 
     print("Hello")    print("Hello")
+    print("Hello")
     
