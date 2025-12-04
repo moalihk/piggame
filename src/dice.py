@@ -9,4 +9,5 @@ class Dice:
         return random.randint(1, self.sides)
 
 
-    print("Hello")
+    print("Hello")    print("Hello")
+    
