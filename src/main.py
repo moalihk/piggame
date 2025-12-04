@@ -36,3 +36,7 @@ class PigDiceShell(cmd.Cmd):
     def do_quit(self, arg):
         print("Goodbye!")
         return True
+    
+
+if __name__ == "__main__":
+    PigDiceShell().cmdloop()
