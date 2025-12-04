@@ -11,3 +11,9 @@ class PigDiceShell(cmd.Cmd):
     def __init__(self):
         super().__init__()
         self.game = None
+
+    
+    def do_start(self, arg):
+        parts = arg.split()
+        if len(parts) < 2:
+            print("Usage: start <player1> <player2> [ai-level]")
