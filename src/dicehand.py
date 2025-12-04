@@ -12,3 +12,5 @@ class DiceHand:
 
 
     print("james")
+
+    print("anything")
