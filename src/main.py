@@ -22,3 +22,17 @@ class PigDiceShell(cmd.Cmd):
         ai_level = parts[2] if len(parts) > 2 else "easy"
         self.game = Game(parts[0], parts[1], ai_mode, ai_level)
         while not self.game.play_turn():
+            pass
+
+
+    def do_highscore(self, arg):
+        from src.highscore import HighScore
+
+
+        hs = HighScore()
+        print(hs.show())
+
+
+    def do_quit(self, arg):
+        print("Goodbye!")
+        return True
