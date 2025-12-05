@@ -37,6 +37,8 @@ class PigDiceShell(cmd.Cmd):
     def do_quit(self, arg):
         print("Goodbye!")
         return True
+
+    print("Hello")
     
 
 
