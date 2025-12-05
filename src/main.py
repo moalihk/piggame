@@ -37,6 +37,8 @@ class PigDiceShell(cmd.Cmd):
         print("Goodbye!")
         return True
     
+    print("hello")
+    
 
 if __name__ == "__main__":
     PigDiceShell().cmdloop()
