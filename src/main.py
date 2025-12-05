@@ -32,3 +32,8 @@ class PigDiceShell(cmd.Cmd):
 
         hs = HighScore()
         print(hs.show())
+
+
+    def do_quit(self, arg):
+        print("Goodbye!")
+        return True
